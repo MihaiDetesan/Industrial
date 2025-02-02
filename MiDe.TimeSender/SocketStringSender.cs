@@ -53,15 +53,15 @@ namespace MiDe.TimeSender
             }
             catch (SocketException ex)
             {
-                logger.Error($"Could not connect to {server}:{port}", ex);
+                logger.Trace($"Could not connect to {server}:{port}", ex);
             }
             catch (ArgumentNullException ex)
             {
-                logger.Error($"Server address can't be null", ex);
+                logger.Trace($"Server address can't be null", ex);
             }
             catch (ArgumentOutOfRangeException ex)
             {
-                logger.Error($"Port outside of range {port}", ex);
+                logger.Trace($"Port outside of range {port}", ex);
             }
 
             return connectionState;

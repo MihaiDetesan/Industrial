@@ -78,7 +78,7 @@ namespace MiDe.TimeSender
 
             try
             {
-                client.Send(triggerTime.ToString());
+                client.Send($"{triggerTime.ToString()}/r/n");
             }
             catch(Exception ex)
             {

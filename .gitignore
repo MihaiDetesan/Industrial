@@ -1,2 +1,12 @@
 
 /.vs
+/GoogleTools/Calendar/GoogleAuth/bin
+/GoogleTools/Calendar/GoogleAuth/obj
+/GoogleTools/Calendar/GoogleBirthdayEvents/bin
+/GoogleTools/Calendar/GoogleBirthdayEvents/obj
+/GoogleTools/Calendar/GoogleEventImporter/bin
+/GoogleTools/Calendar/GoogleEventImporter/obj
+/MiDe.TimeReceiver/bin
+/MiDe.TimeReceiver/obj
+/MiDe.TimeSender/bin
+/MiDe.TimeSender/obj
